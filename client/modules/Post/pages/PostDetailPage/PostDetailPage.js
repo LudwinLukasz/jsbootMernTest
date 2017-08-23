@@ -1,7 +1,7 @@
 import React, { PropTypes, Component } from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
-import { getShowEditPost } from '../../../Post/PostReducer';
+import { getShowEditPost } from '../../../App/AppReducer';
 import { fetchPost, editPostRequest } from '../../PostActions';
 import { toggleEditPost } from '../../../App/AppActions';
 import { injectIntl, FormattedMessage } from 'react-intl';
